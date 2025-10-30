@@ -1,0 +1,118 @@
+.contact-section {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #034062, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #caf0f8;
+  margin-bottom: 15px;
+}
+
+.contact-intro {
+  max-width: 750px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  color: #e0f7fa;
+  line-height: 1.7;
+}
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-card {
+  background: rgba(221, 203, 203, 0.15);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  padding: 25px;
+  width: 220px;
+  transition: all 0.3s ease;
+  text-align: center;
+  color: rgb(231, 208, 208);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+.contact-card .icon {
+  color: #00e5ff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-card h4 {
+  color: #90e0ef;
+  margin-bottom: 5px;
+}
+
+.contact-card a,
+.contact-card p {
+  color: #e0f7fa;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 0.95rem;
+}
+
+.contact-card a:hover {
+  color: #00e5ff;
+  text-decoration: underline;
+}
+
+.contact-footer {
+  margin-top: 60px;
+  color: #caf0f8;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.contact-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #0077b6;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #005f8a;
+}
