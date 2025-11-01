@@ -5,6 +5,18 @@ import "./Projects.css";
 
 export default function Projects() {
   const projects = [
+
+   {title: "✅ To-Do List Application (Spring Boot)",
+tech: "Java | Spring Boot | JPA | MySQL | Bootstrap | REST API",
+desc: "A simple and responsive To-Do List backend and frontend application built using Spring Boot and JPA. It allows users to add, update, view, and delete tasks. The frontend uses Bootstrap for UI, and APIs are tested with Postman.",
+link: "https://github.com/priyankaBodke/ToDoApp-"
+  },
+  {
+      title: "🛒 E-Commerce Website (Backend)",
+tech: "Java | Spring Boot | MySQL | REST API",
+desc: "Backend application implementing CRUD operations for products,and MySQL. APIs are tested and verified using Postman.",
+link: "https://github.com/priyankaBodke/E-Commerce-Website-Backend"},
+
     {
       title: "🏦 Bank Management System",
       tech: "Java | JDBC | MySQL | Servlet",
@@ -16,7 +28,7 @@ export default function Projects() {
       title: "🧑‍🎓 Student Management System",
       tech: "Core Java | OOP Concepts | Collections Framework",
       desc: "Console-based Java application to manage student records using OOP principles and Java Collections like ArrayList and HashMap for data storage and manipulation.",
-      link: "",
+      link: "https://github.com/priyankaBodke/Student_Manegement_System",
 
     },
     {
@@ -26,18 +38,19 @@ export default function Projects() {
         link: "https://github.com/priyankaBodke/Car-Rental-System",
 
             },
-    {
-      title: "🛒 E-Commerce Website (Backend)",
-tech: "Java | Spring Boot | MySQL | REST API",
-desc: "Backend application implementing CRUD operations for products,and MySQL. APIs are tested and verified using Postman.",
-link: "https://github.com/priyankaBodke/E-Commerce-Website-Backend-",
+            {
+title: "🎓 Student Report Card System (Core Java + JDBC)",
+tech: "Java | JDBC | MySQL | Exception Handling | Custom Classes",
+desc: "A console-based Java application that manages and stores student report cards using JDBC and MySQL. It applies object-oriented principles for student data management, integrates custom exceptions to handle invalid marks or database errors, and demonstrates solid Core Java, JDBC connectivity, and exception handling concepts.",
+link: "https://github.com/priyankaBodke/Student_Score_Card/tree/main/src"
 
-    },
+            },
+    
     {
       title: "🌐 Portfolio Website",
       tech: "React | CSS | Framer Motion | Router",
       desc: "Personal developer portfolio showcasing projects, skills, and contact info.",
-      link: "",
+      link: "https://github.com/priyankaBodke/PortFolio",
     },
   ];
 

@@ -26,7 +26,7 @@ export default function Home() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          Java Full Stack Developer 💻
+          Java Full Stack Developer 
         </motion.h3>
 
         <motion.p
@@ -45,7 +45,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          <a href="/src/assets/resume.pdf" className="btn">📄 Download Resume</a>
+          <a href="/src/assets/Priyanka_resume (1).pdf" className="btn">Download Resume</a>
           <a href="https://github.com/priyankabodke" target="_blank" className="btn outline">⭐ GitHub</a>
         </motion.div>
 
