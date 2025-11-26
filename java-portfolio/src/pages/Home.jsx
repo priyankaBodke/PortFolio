@@ -45,7 +45,12 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          <a href="/src/assets/Priyanka_resume (1).pdf" className="btn">Download Resume</a>
+         <a href="/Priyanka_resume.pdf" className="btn" download>
+  Download Resume
+</a>
+
+
+         
           <a href="https://github.com/priyankabodke" target="_blank" className="btn outline">⭐ GitHub</a>
         </motion.div>
 
@@ -55,7 +60,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
         >
-          <a href="https://linkedin.com/in/priyankabodke" target="_blank" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/priyanka-bodke-200422269/" target="_blank" title="LinkedIn">
             <FaLinkedin size={28} />
           </a>
           <a href="https://github.com/priyankabodke" target="_blank" title="GitHub">

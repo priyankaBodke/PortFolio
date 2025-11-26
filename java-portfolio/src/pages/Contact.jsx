@@ -66,7 +66,7 @@ export default function Contact() {
         <div className="contact-card">
           <FaLinkedin className="icon" />
           <h4>LinkedIn</h4>
-          <a href="https://linkedin.com/in/priyankabodke" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/priyanka-bodke-200422269/" target="_blank" rel="noreferrer">
             linkedin.com/in/priyankabodke
           </a>
         </div>
