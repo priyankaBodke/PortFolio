@@ -17,10 +17,10 @@ export default function About() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <img
-            src="Priya_img.jpg"
-            alt="Priyanka Bodke"
-          />
+          
+          <img src="/Priya_img.jpg" alt="Priyanka Bodke" />
+
+           
         </motion.div>
 
         <motion.div
