@@ -12,6 +12,13 @@ desc: "A simple and responsive To-Do List backend and frontend application built
 link: "https://github.com/priyankaBodke/ToDoApp-"
   },
   {
+  "title": "🎥 YouTube Data Retrieval System (Java + Spring Boot)",
+  "tech": "Java | Spring Boot | REST API | YouTube Data API v3 | HTML | CSS | Thymeleaf | Bootstrap",
+  "desc": "A YouTube Data Retrieval Web Application that allows users to input a YouTube video link, ID, or keyword topic. The backend uses the YouTube Data API to fetch video details such as title, description, channel name, tags, view count, and automatically downloads the thumbnail. Users can also search by topic and get tokenized keyword suggestions. The frontend is built using HTML, CSS, Bootstrap, and Thymeleaf for dynamic UI rendering.",
+  "link": "https://github.com/priyankaBodke/YouTube-Video-Data-Retriever"
+},
+
+  {
       title: "🛒 E-Commerce Website (Backend)",
 tech: "Java | Spring Boot | MySQL | REST API",
 desc: "Backend application implementing CRUD operations for products,and MySQL. APIs are tested and verified using Postman.",
