@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./About.css";
+import './style.css';
 
 export default function About() {
   return (
@@ -56,9 +56,21 @@ export default function About() {
               <p><strong>BCA</strong> – SPPU University</p>
             </div>
             <div>
-              <h4>💼 Experience</h4>
-              <p>Fresher</p>
-            </div>
+                <h4>💼 Experience</h4>
+
+                <p>
+                  <strong>Java Developer Intern</strong><br/>
+                  Yuva Intern<br/>
+                  <span>10 Sep 2025 – 10 Oct 2025</span>
+                </p>
+
+                <p>
+                  <strong>IT Intern</strong><br/>
+                  Asism Software Private Limited<br/>
+                  <span>21 Jan 2026 – Present</span>
+                </p>
+
+              </div>
             <div>
               <h4>🌐 Interests</h4>
               <p>Java Backend Technologies, React Development</p>

@@ -1,0 +1,80 @@
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(120deg, #001f3f, #005f73);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Logo */
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffd60a;
+}
+
+/* Links */
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navbar ul li a {
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ffd60a;
+  transform: translateY(-2px);
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    background: linear-gradient(120deg, #001f3f, #005f73);
+    transition: 0.3s ease;
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .nav-links ul li a {
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+}

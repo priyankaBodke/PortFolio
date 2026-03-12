@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import "./Home.css"; // we'll add this next
+import './style.css';
 
 export default function Home() {
   return (
@@ -45,7 +45,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-         <a href="/Priyanka_resume.pdf" className="btn" download>
+         <a href="/Priyanka_job_resume.pdf" className="btn" download>
   Download Resume
 </a>
 

@@ -6,7 +6,7 @@ import {
 import { 
   SiSpringboot, SiHibernate, SiMysql, SiJavascript, SiSwagger, SiPostman 
 } from "react-icons/si";
-import "./Skills.css";
+import './style.css';
 
 export default function Skills() {
   const skills = [

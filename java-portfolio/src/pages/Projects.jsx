@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
-import "./Projects.css";
+import './style.css';
 
 export default function Projects() {
   const projects = [
